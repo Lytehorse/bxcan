@@ -90,6 +90,10 @@ bitflags::bitflags! {
         const FIFO1_MESSAGE_PENDING = 1 << 4;
         const FIFO1_FULL = 1 << 5;
         const FIFO1_OVERRUN = 1 << 6;
+        const ERROR_WARNING = 1 << 8;
+        const ERROR_PASSIVE = 1 << 9;
+        const ERROR_BUS_OFF = 1 << 10;
+        const ERROR_LAST_ERROR_CODE = 1 << 11;
         const ERROR = 1 << 15;
         const WAKEUP = 1 << 16;
         const SLEEP = 1 << 17;
